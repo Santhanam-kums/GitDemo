@@ -37,6 +37,7 @@ public class Serialisation {
 		given().log().all().queryParam("key", "qaclick123").header("content-type","application/json")
 		.body(ap).when().post("/maps/api/place/add/json")
 		.then().log().all().assertThat().statusCode(200);
+		System.out.println("done");
 		
 	}
 	

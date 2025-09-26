@@ -33,6 +33,8 @@ public class OauthAuthenticationClientType {
 			
 			String titles = course.get(i).getCourseTitle();
 			System.out.println(titles);
+			System.out.println("never");
+			System.out.println("ever");
 			
 		}
 		
